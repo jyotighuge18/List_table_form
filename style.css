@@ -1,0 +1,57 @@
+ul{
+    background-color: rgb(215, 250, 219);
+    list-style-position: outside;
+    list-style-type: circle;
+}
+li{
+    background-color: lightcoral;
+}
+table th, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+table{
+    width: 50rem;
+}
+td{
+    text-align: center;
+}
+tr{
+    height: 50px;
+}
+tr:first-child{
+    background-color: lightblue;
+
+    
+}
+tr:nth-child(even){
+    background-color: gray;
+}
+tr:hover{
+    background-color: yellow;
+}
+
+
+
+input[type=email]{
+
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+}
+input[type=password]:focus{
+    background-color: red;
+    width:50%;
+
+
+}
+button{
+    
+    padding: 5px;
+    width: 50px;
+    background-color: pink;
+}
+button:hover{
+    padding: 50px;
+}
